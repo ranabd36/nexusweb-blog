@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "npm run tailwind:build",
+    "dev": "npm run tailwind:watch",
+    "tailwind:build": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --minify",
+    "tailwind:watch": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.9"
+  }
+}

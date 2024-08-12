@@ -1,13 +1,24 @@
-baseURL = 'https://ranabd36.github.io/nexusweb-blog/'
+baseURL = 'https://www.nexusweb.net/'
 languageCode = 'en-us'
 title = 'Nexus Web'
-theme = 'tophat'
-paginate = 5
+theme = 'nexus'
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+[pagination]
+  pagerSize = 5
+  path = 'page'
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
 
 [params]
   main = "posts"
   featured = false
-  description = "@ranabd36"
+  subtitle = "@ranabd36"
   favicon = "/img/favicon.png"
   # You can customize the visibility of some elements like date, reading time, words counter and tags inside article by setting true or false
   show_date_on_article = true
@@ -16,17 +27,26 @@ paginate = 5
   show_tags_on_article = true
 
   [menu]
+   [[menu.main]]
+     identifier = "category"
+     name = "Categories"
+     url = "/categories/"
 
-#   [[menu.main]]
-#     identifier = "about"
-#     name = "About"
-#     url = "/pages/about/"
-
-#   [[menu.main]]
-#     identifier = "contact"
-#     name = "Contact"
-#     url = "/pages/contact/"
-
+   [[menu.main]]
+     identifier = "series"
+     name = "Series"
+     url = "/series/"
+     
+   [[menu.main]]
+     identifier = "contact"
+     name = "Contact"
+     url = "/contact/"
+     
+  [[menu.social]]
+    identifier = "mail"
+    name = "Email"
+    url = "mailto:ranabd36@gmail.com"
+    
   [[menu.social]]
     identifier = "twitter"
     name = "Twitter"

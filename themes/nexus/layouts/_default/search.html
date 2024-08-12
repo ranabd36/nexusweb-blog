@@ -1,0 +1,56 @@
+<div class="relative">
+    <input type="text" id="search-input" placeholder="Search..." class="border p-2 w-full rounded-lg" />
+    <ul id="results" class="absolute left-0 w-full bg-white border border-gray-200 mt-1 rounded-lg shadow-lg z-10 hidden">
+      <!-- Search results will be injected here -->
+    </ul>
+  </div>
+  
+  <script>
+      document.getElementById('search-input').addEventListener('input', function () {
+          const query = this.value.trim();
+  
+          if (query.length >= 3) {
+              fetch('/index.json')
+                  .then(response => response.json())
+                  .then(data => {
+                      const idx = lunr(function () {
+                          this.field('title');
+                          this.field('content');
+                          this.ref('url');
+  
+                          data.forEach(doc => {
+                              this.add(doc);
+                          });
+                      });
+  
+                      const results = idx.search(query);
+                      const resultsList = document.getElementById('results');
+                      resultsList.innerHTML = ''; // Clear previous results
+                      resultsList.classList.remove('hidden');
+  
+                      if (results.length > 0) {
+                          results.forEach(result => {
+                              const item = data.find(doc => doc.url === result.ref);
+                              const li = document.createElement('li');
+                              li.className = 'p-2 hover:bg-gray-100 cursor-pointer';
+                              li.innerHTML = `<a href="${item.url}" class="block text-gray-800">
+                                  <span class="font-semibold">${item.title}</span>
+                                  <p class="text-sm text-gray-600">${item.summary.substring(0, 100)}...</p>
+                              </a>`;
+                              resultsList.appendChild(li);
+                          });
+                      } else {
+                          const li = document.createElement('li');
+                          li.className = 'p-2 text-gray-600';
+                          li.textContent = 'No results found';
+                          resultsList.appendChild(li);
+                      }
+                  })
+                  .catch(error => {
+                      console.error('Error fetching or parsing the search index:', error);
+                  });
+          } else {
+              document.getElementById('results').classList.add('hidden');
+          }
+      });
+  </script>

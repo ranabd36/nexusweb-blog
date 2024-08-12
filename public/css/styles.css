@@ -19,7 +19,7 @@ html body * {
 /* colors */
 /* defaults */
 div.content {
-  width: 1080px;
+  width: 800px;
   margin: 0 auto;
 }
 
@@ -58,14 +58,14 @@ nav.blog-navigation .left {
   align-content: normal;
 }
 nav.blog-navigation .left .blog-logo img {
-  max-width: 80px;
+  max-width: 75px;
 }
 nav.blog-navigation .left .blog-info .blog-title a {
   text-decoration: none;
 }
 nav.blog-navigation .left .blog-info .blog-title a h1 {
   margin: 0px;
-  color: #524741;
+  color: #000;
   font-family: "Open Sans", sans-serif;
   font-size: 28px;
 }
@@ -80,7 +80,7 @@ nav.blog-navigation .left .blog-info .blog-description a h2 {
   font-weight: lighter;
 }
 nav.blog-navigation .left .blog-info .blog-description a h2:hover {
-  color: #e87b27;
+  color: #c33dd3;
 }
 nav.blog-navigation .right ul.links {
   list-style-type: none;
@@ -93,7 +93,7 @@ nav.blog-navigation .right ul.links li.item {
 }
 nav.blog-navigation .right ul.links li.item a {
   text-decoration: none;
-  color: #524741;
+  color: #000;
 }
 nav.blog-navigation .right ul.links li.item a:hover {
   text-decoration: underline;
@@ -137,7 +137,7 @@ article, .single article {
 }
 article.featured, .single article.featured {
   background-color: #ffefff;
-  border-color: #e87b27;
+  border-color: #c33dd3;
 }
 article div.article-meta, .single article div.article-meta {
   display: flex;
@@ -176,7 +176,7 @@ article div.article-meta ul.article-tags li, .single article div.article-meta ul
   margin-right: 5px;
 }
 article div.article-meta ul.article-tags li a, .single article div.article-meta ul.article-tags li a {
-  color: #e87b27;
+  color: #c33dd3;
   text-decoration: none;
 }
 article div.article-meta ul.article-tags li a:hover, .single article div.article-meta ul.article-tags li a:hover {
@@ -192,7 +192,7 @@ article div.article-header h1.article-title, .single article div.article-header 
 }
 article div.article-header a, .single article div.article-header a {
   text-decoration: none;
-  color: #524741;
+  color: #000;
 }
 article div.article-header a:hover, .single article div.article-header a:hover {
   text-decoration: underline;
@@ -212,27 +212,47 @@ article div.article-content, .single article div.article-content {
   font-size: 17px;
   word-break: break-word;
 }
-article div.article-content h1, article div.article-content h2, article div.article-content he, article div.article-content h4, article div.article-content h5, article div.article-content h6, .single article div.article-content h1, .single article div.article-content h2, .single article div.article-content he, .single article div.article-content h4, .single article div.article-content h5, .single article div.article-content h6 {
+article div.article-content h1, article div.article-content h2, article div.article-content h3, article div.article-content h4, article div.article-content h5, article div.article-content h6, .single article div.article-content h1, .single article div.article-content h2, .single article div.article-content h3, .single article div.article-content h4, .single article div.article-content h5, .single article div.article-content h6 {
+  text-decoration: underline;
+  font-weight: lighter;
+}
+article div.article-content h1, .single article div.article-content h1 {
+  font-size: 28px !important;
+}
+article div.article-content h2, .single article div.article-content h2 {
+  font-size: 22px !important;
+}
+article div.article-content h3, .single article div.article-content h3 {
+  font-size: 20px !important;
+}
+article div.article-content h4, .single article div.article-content h4 {
+  font-size: 17px !important;
+}
+article div.article-content h5, .single article div.article-content h5 {
+  font-size: 17px !important;
+}
+article div.article-content h6, .single article div.article-content h6 {
   font-size: 17px !important;
 }
 article div.article-content a, .single article div.article-content a {
-  color: #e87b27;
-  text-decoration: none;
+  color: #c33dd3;
+  text-decoration: underline;
 }
 article div.article-content a:hover, .single article div.article-content a:hover {
-  text-decoration: underline;
+  background-color: rgba(195, 61, 211, 0.2);
 }
 article div.article-content em, .single article div.article-content em {
   color: #757575;
+  background-color: rgba(0, 0, 0, 0.1);
   margin-right: 3px;
 }
 article div.article-content img, .single article div.article-content img {
   width: 100%;
-  border: 5px solid #f7f7f7;
+  border: 1px solid #b5b5b5;
 }
 article div.article-content blockquote, .single article div.article-content blockquote {
   margin: 0;
-  border-left: 5px solid #962ec6;
+  border-left: 5px solid #00a099;
   padding-left: 5px;
   font-style: italic;
   padding: 10px;
@@ -260,19 +280,33 @@ article div.article-content blockquote p, .single article div.article-content bl
 /* fonts size */
 /* colors */
 /* defaults */
+/* code embed from Github Gist */
 .gist a {
   color: inherit;
 }
 
-.highlight * {
+/* inline blocks of code */
+code {
+  background-color: rgba(0, 160, 153, 0.2);
+}
+
+pre code {
+  background-color: initial;
+}
+
+/* enrich blocks of code */
+div.highlight * {
   word-wrap: break-word !important;
   text-wrap: wrap !important;
   white-space: -webkit-pre-wrap;
   white-space: pre-wrap;
-  font-size: 17px !important;
+  font-size: 16px !important;
 }
-.highlight pre {
+div.highlight > pre {
   padding: 5px;
+}
+div.highlight > pre code {
+  background-color: initial;
 }
 
 div.list ul.tags {
@@ -289,27 +323,27 @@ div.list ul.tags li.tag {
   margin-bottom: 5px;
 }
 div.list ul.tags li.tag a {
-  color: #e87b27;
+  color: #c33dd3;
 }
 
 div.tag p {
   display: inline-block;
 }
 div.tag p.term span {
-  color: #e87b27;
+  color: #c33dd3;
 }
 div.tag p.term span:before {
   content: "#";
   margin-left: 5px;
 }
 div.tag p.term a {
-  color: #e87b27;
+  color: #c33dd3;
 }
 div.tag p.all {
   float: right;
 }
 div.tag p.all a {
-  color: #e87b27;
+  color: #c33dd3;
 }
 
 /* width */
@@ -322,7 +356,7 @@ footer {
   font-size: 17px;
 }
 footer a {
-  color: #e87b27;
+  color: #c33dd3;
   text-decoration: none;
 }
 footer a:hover {
@@ -352,10 +386,10 @@ div.pagination ul li {
   display: inline-block;
 }
 div.pagination ul li a {
-  color: #e87b27;
+  color: #c33dd3;
 }
 div.pagination ul li a span {
-  color: #524741;
+  color: #000;
   vertical-align: middle;
 }
 div.pagination ul li.newer {

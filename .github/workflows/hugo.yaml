@@ -58,7 +58,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "https://ranabd36.github.io/nexusweb-blog/"
+            --baseURL "https://www.nexusweb.net/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
@@ -68,7 +68,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: "https://ranabd36.github.io/nexusweb-blog/"
+      url: "https://www.nexusweb.net/"
     runs-on: ubuntu-latest
     needs: build
     steps:

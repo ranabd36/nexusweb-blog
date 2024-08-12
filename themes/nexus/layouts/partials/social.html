@@ -1,0 +1,14 @@
+{{- $menuID := .menuID }}
+{{- with index site.Menus $menuID }}
+{{- $defaultSVG := resources.Get "svg/default.svg" }}
+<div class="mb-3 flex space-x-4">
+  {{ range .}}
+  <a class="text-sm  transition" target="_blank" rel="noopener noreferrer"
+    href="{{ .URL }}">
+    <span class="sr-only">{{ .Name }}</span>
+    {{- $svg := resources.Get (printf "svg/%s.svg" .Identifier) | default $defaultSVG }}
+    {{- $svg.Content | safeHTML }}
+  </a>
+  {{ end }}
+</div>
+{{- end }}

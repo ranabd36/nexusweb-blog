@@ -1,0 +1,20 @@
+name = 'Nexus'
+license = 'MIT'
+licenselink = 'https://github.com/ranabd36/hugo-nexus-theme/LICENSE'
+description = 'Theme description'
+
+# The home page of the theme, where the source can be found
+homepage = 'https://github.com/ranabd36/hugo-nexus-theme'
+
+# If you have a running demo of the theme
+demosite = 'https://ranabd36.github.io/nexusweb-blog'
+
+# Taxonomy terms
+tags = ['blog', 'minimalism', 'journal', 'diary']
+features = ['syntax highlighting']
+
+# If the theme has a single author
+[author]
+  name = 'Ibrahim Alnaz Rana'
+  homepage = 'https://github.com/ranabd36'
+
