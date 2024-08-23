@@ -22,6 +22,9 @@ theme = 'nexus'
   tag = "tags"
   series = "series"
 
+[author]
+  name = "Ibrahim Al Naz Rana"
+
 [params]
   subtitle = "@ranabd36"
   favicon = "/img/favicon.ico"
@@ -30,7 +33,9 @@ theme = 'nexus'
   image = "/img/default-og-image.webp"
   twitter_site = "@ranabd36"
   twitter_image = "/img/default-og-image.webp"
-  facebook_app_id=""
+  google_analytics = "G-PPGWY8TKX7"
+  facebook_app_id = "377744055369086"
+
   [menu]
    [[menu.main]]
      identifier = "category"

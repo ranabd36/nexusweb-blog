@@ -16,15 +16,15 @@
 
 </title>
 
-<meta name="description" content="Discover how to unleash the full potential of web development among others at Nexus Web. This is where you will find the most comprehensive guides on PHP, Laravel, Go, SQL and JavaScript just to mention a few." /><meta name="keywords" content="blog, technology, PHP tutorials, Laravel guides, Go programming, SQL tips, JavaScript learning, Linux tutorials, macOS tips, Web development, Programming tutorials, Coding best practices" /><link rel="canonical" href="http://localhost:1313/" /><meta property="fb:app_id" content="" />
+<meta name="description" content="Discover how to unleash the full potential of web development among others at Nexus Web. This is where you will find the most comprehensive guides on PHP, Laravel, Go, SQL and JavaScript just to mention a few." /><meta name="keywords" content="blog, technology, PHP tutorials, Laravel guides, Go programming, SQL tips, JavaScript learning, Linux tutorials, macOS tips, Web development, Programming tutorials, Coding best practices" /><link rel="canonical" href="http://localhost:1313/" /><meta property="fb:app_id" content="{{ getenv &#34;FACEBOOK_APP_ID&#34; }}" />
 
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@ranabd36" /><meta name="og:title" content="Nexus Web" />
+<meta name="twitter:site" content="@ranabd36" /><meta property="og:title" content="Nexus Web" />
   <meta property="og:type" content="website" />
   <meta property="og:description" content="Discover how to unleash the full potential of web development among others at Nexus Web. This is where you will find the most comprehensive guides on PHP, Laravel, Go, SQL and JavaScript just to mention a few." />
   <meta property="og:url" content="http://localhost:1313/" />
-  <meta name="og:image" content="http://localhost:1313/img/default-og-image.webp" />
+  <meta property="og:image" content="http://localhost:1313/img/default-og-image.webp" />
   <meta name="twitter:creator" content="@ranabd36" />
   <meta name="twitter:title" content="Nexus Web" /><meta
       name="twitter:image"
@@ -36,6 +36,20 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
       <script src="http://localhost:1313/js/main.js"></script>
       <script src="http://localhost:1313/js/search.js"></script>
+
+
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=%7b%7b%20getenv%20%22GOOGLE_ANALYTICS_ID%22%20%7d%7d"
+  ></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ getenv \u0022GOOGLE_ANALYTICS_ID\u0022 }}');
+</script>
+
+
 
   </head>
 

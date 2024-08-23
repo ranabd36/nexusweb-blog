@@ -16,7 +16,7 @@
   <link rel="canonical" href="{{ .Permalink }}" />
 {{- end }}
 
-{{- if isset .Site.Params "facebook_app_id" -}}
+{{- if .Site.Params.facebook_app_id -}}
   <meta property="fb:app_id" content="{{ .Site.Params.facebook_app_id }}" />
 {{- end }}
 
