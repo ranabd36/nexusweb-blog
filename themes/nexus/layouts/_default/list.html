@@ -1,13 +1,17 @@
 {{ define "main" }}
-<div class="pt-6">
-  <h1 class="text-2xl font-bold tracking-wide text-gray-500 dark:text-gray-400">{{ .Parent.Title }}: {{ .Title }}</h1>
-</div>
+  <div class="pt-6">
+    <h1
+      class="text-2xl font-bold tracking-wide text-gray-500 dark:text-gray-400"
+    >
+      {{ .Parent.Title }}:
+      {{ .Title }}
+    </h1>
+  </div>
 
-<div class="mt-4 pt-8 border-t border-gray-300 dark:border-gray-600">
-  {{ $pages := .Pages.ByPublishDate.Reverse }}
+  <div class="mt-4 pt-8 border-t border-gray-300 dark:border-gray-600">
+    {{ $pages := .Pages.ByPublishDate.Reverse }}
     {{ $paginator := .Paginate $pages }}
 
-    {{ partial "list.html" (dict "pages" $paginator.Pages "paginator" .Paginator "site" .Site "summaryLimit" 400)}}
-</div>
-
+    {{ partial "list.html" (dict "pages" $paginator.Pages "paginator" .Paginator "site" .Site "summaryLimit" 400) }}
+  </div>
 {{ end }}

@@ -1,10 +1,17 @@
-baseURL = 'https://www.nexusweb.net/'
+baseURL = 'http://localhost:1313/nexusweb-blog/'
 languageCode = 'en-us'
 title = 'Nexus Web'
 theme = 'nexus'
 
 [outputs]
-  home = ["HTML", "JSON"]
+  home = ["HTML", "JSON", "RSS", "Sitemap"]
+  section = ["HTML", "RSS"]
+  page = ["HTML"]
+  taxonomy = ["HTML"]
+
+[sitemap]
+  changeFreq = 'weekly'
+  priority = 0.5
 
 [pagination]
   pagerSize = 5
@@ -16,15 +23,13 @@ theme = 'nexus'
   series = "series"
 
 [params]
-  main = "posts"
-  featured = false
   subtitle = "@ranabd36"
   favicon = "/img/favicon.png"
-  # You can customize the visibility of some elements like date, reading time, words counter and tags inside article by setting true or false
-  show_date_on_article = true
-  show_reading_time_on_article = true
-  show_words_count_on_article = false
-  show_tags_on_article = true
+  description = "Discover how to unleash the full potential of web development among others at Nexus Web. This is where you will find the most comprehensive guides on PHP, Laravel, Go, SQL and JavaScript just to mention a few."
+  keywords = "blog, technology, PHP tutorials, Laravel guides, Go programming, SQL tips, JavaScript learning, Linux tutorials, macOS tips, Web development, Programming tutorials, Coding best practices"
+  image = "/img/default-og-image.webp"
+  twitter_site = "@ranabd36"
+  twitter_image = "/img/default-og-image.webp"
 
   [menu]
    [[menu.main]]

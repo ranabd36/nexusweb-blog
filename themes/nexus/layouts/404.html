@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Not Found | {{ .Site.Title }}</title>
+    <meta
+      name="description"
+      content="Oops! The page you're looking for doesn't exist."
+    />
+    {{ partialCached "head/css.html" . }}
+  </head>
+
+  <body
+    class="bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-gray-100 antialiased"
+  >
+    <div class="flex items-center justify-center min-h-screen">
+      <div class="text-center">
+        <h1 class="text-6xl font-bold">404</h1>
+        <p class="mt-4 text-xl">
+          Oops! The page you're looking for doesn't exist.
+        </p>
+        <p class="mt-2 text-md">
+          It might have been removed, or the URL might be incorrect.
+        </p>
+        <a
+          href="{{ .Site.BaseURL }}"
+          class="mt-6 inline-block px-4 py-2 bg-amber-500 text-white rounded-lg hover:bg-amber-600"
+          >Go Home</a
+        >
+      </div>
+    </div>
+
+    <script>
+      const htmlElement = document.documentElement;
+      if (localStorage.getItem("theme") === "dark") {
+        htmlElement.classList.add("dark");
+      }
+    </script>
+  </body>
+</html>

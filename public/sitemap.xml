@@ -4,105 +4,175 @@
   <url>
     <loc>http://localhost:1313/nexusweb-blog/categories/</loc>
     <lastmod>2024-08-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/tags/go/</loc>
     <lastmod>2024-08-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/series/go-programming/</loc>
     <lastmod>2024-08-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/categories/hugo/</loc>
     <lastmod>2024-08-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/posts/my-post-10/</loc>
     <lastmod>2024-08-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/series/go-programming/my-post-10/</loc>
     <lastmod>2024-08-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/</loc>
     <lastmod>2024-08-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/posts/</loc>
     <lastmod>2024-08-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/series/</loc>
     <lastmod>2024-08-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/tags/static-site/</loc>
     <lastmod>2024-08-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/tags/</loc>
     <lastmod>2024-08-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/posts/my-post-9/</loc>
     <lastmod>2024-08-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/series/go-programming/my-post-9/</loc>
     <lastmod>2024-08-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/posts/my-post-8/</loc>
     <lastmod>2024-08-08T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/series/go-programming/my-post-8/</loc>
     <lastmod>2024-08-08T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/posts/my-post-7/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/series/go-programming/my-post-7/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/posts/my-post-6/</loc>
     <lastmod>2024-08-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/series/go-programming/my-post-6/</loc>
     <lastmod>2024-08-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/posts/my-post-5/</loc>
     <lastmod>2024-08-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/series/php-programming/my-post-5/</loc>
     <lastmod>2024-08-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/series/php-programming/</loc>
     <lastmod>2024-08-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/posts/my-post-4/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/series/go-programming/my-post-4/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/posts/my-post-3/</loc>
     <lastmod>2024-08-03T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/series/php-programming/my-post-3/</loc>
     <lastmod>2024-08-03T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/posts/my-post-2/</loc>
     <lastmod>2024-08-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/series/go-programming/my-post-2/</loc>
     <lastmod>2024-08-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/posts/my-post/</loc>
     <lastmod>2024-08-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/series/php-programming/my-post/</loc>
     <lastmod>2024-08-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/categories/fundamental/</loc>
     <lastmod>2024-08-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/posts/test-post/</loc>
     <lastmod>2024-08-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/series/php-programming/test-post/</loc>
     <lastmod>2024-08-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/contact/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/nexusweb-blog/search/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>

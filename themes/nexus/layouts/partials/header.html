@@ -1,12 +1,18 @@
 <div>
-    <a href="{{ .Site.BaseURL }}">
-        <div class="flex items-center justify-between">
-            <div class="mr-3">
-                {{ $logo := resources.Get "img/logo.png"}}
-                <img class="size-12 -ml-1" src="{{ $logo.Permalink }}" alt="{{ .Site.Title }}">
-            </div>
-            <div class="hidden h-6 text-2xl font-semibold sm:block">{{ site.Title }}</div>
-        </div>
-    </a>
+  <a href="{{ .Site.BaseURL }}">
+    <div class="flex items-center justify-between">
+      <div class="mr-3">
+        {{ $logo := resources.Get "img/logo.png" }}
+        <img
+          class="size-12 -ml-1"
+          src="{{ $logo.Permalink }}"
+          alt="{{ .Site.Title }}"
+        />
+      </div>
+      <div class="hidden h-6 text-2xl font-semibold sm:block">
+        {{ site.Title }}
+      </div>
+    </div>
+  </a>
 </div>
 {{ partial "menu.html" (dict "site" .Site "menuID" "main" "page" .) }}

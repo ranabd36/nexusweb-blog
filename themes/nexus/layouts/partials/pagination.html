@@ -1,21 +1,37 @@
-{{- $paginator := .paginator}}
+{{- $paginator := .paginator }}
 
 {{ if gt $paginator.TotalPages 1 }}
-<div class="space-y-2 pb-8 pt-6 md:space-y-5">
-<nav class="flex items-center justify-between">
-    {{ if $paginator.HasPrev }}
-    <a class="break-words hover:text-amber-500 dark:hover:text-amber-500" href="{{ $paginator.Prev.URL | relURL }}">Previous</a>
-    {{ else }}
-    <button class="cursor-auto disabled:opacity-50" disabled="">Previous</button>
-    {{ end }}
+  <div class="space-y-2 pb-8 pt-6 md:space-y-5">
+    <nav class="flex items-center justify-between">
+      {{ if $paginator.HasPrev }}
+        <a
+          class="break-words hover:text-amber-500 dark:hover:text-amber-500"
+          href="{{ $paginator.Prev.URL | relURL }}"
+          >Previous</a
+        >
+      {{ else }}
+        <button class="cursor-auto disabled:opacity-50" disabled="">
+          Previous
+        </button>
+      {{ end }}
 
-    <p class="total">{{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}</p>
 
-    {{ if $paginator.HasNext }}
-    <a class="break-words hover:text-amber-500 dark:hover:text-amber-500" href="{{ $paginator.Next.URL | relURL }}">Next</a>
-    {{ else}}
-    <button class="cursor-auto disabled:opacity-50" disabled="">Next</button>
-    {{ end }}
-</nav>
-</div>
+      <p class="total">
+        {{ $paginator.PageNumber }} of
+        {{ $paginator.TotalPages }}
+      </p>
+
+      {{ if $paginator.HasNext }}
+        <a
+          class="break-words hover:text-amber-500 dark:hover:text-amber-500"
+          href="{{ $paginator.Next.URL | relURL }}"
+          >Next</a
+        >
+      {{ else }}
+        <button class="cursor-auto disabled:opacity-50" disabled="">
+          Next
+        </button>
+      {{ end }}
+    </nav>
+  </div>
 {{ end }}

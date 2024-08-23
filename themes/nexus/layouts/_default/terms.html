@@ -1,23 +1,28 @@
 {{ define "main" }}
-<div class="grid grid-cols-6 gap-x-6 gap-y-12">
-  <div class="sm:block sm:col-span-2">
-    <h2 class="font-bold tracking-wide text-amber-500 uppercase">All {{ .Title }}</h2>
-    <ul class="ml-1">
-      {{ range .Pages }}
-      <li class="my-3">
-        <a href="{{ .Permalink }}"
-          class="px-3 py-2 text-sm font-medium uppercase tracking-wide text-gray-500 dark:text-gray-400 hover:text-amber-500 dark:hover:text-amber-400">
-          {{ .Title }} ({{ len .Pages }})
-        </a>
-      </li>
-      {{ end }}
-    </ul>
-  </div>
-  <div class="col-span-6 sm:col-span-4">
-    {{ $pages := where .Site.RegularPages.ByPublishDate.Reverse (printf "Params.%s" .Data.Plural) "!=" nil }}
-    {{ $paginator := .Paginate $pages }}
+  <div class="grid grid-cols-6 gap-x-6 gap-y-12">
+    <div class="sm:block sm:col-span-2">
+      <h2 class="font-bold tracking-wide text-amber-500 uppercase">
+        All
+        {{ .Title }}
+      </h2>
+      <ul class="ml-1">
+        {{ range .Pages }}
+          <li class="my-3">
+            <a
+              href="{{ .Permalink }}"
+              class="px-3 py-2 text-sm font-medium uppercase tracking-wide text-gray-500 dark:text-gray-400 hover:text-amber-500 dark:hover:text-amber-400"
+            >
+              {{ .Title }} ({{ len .Pages }})
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+    <div class="col-span-6 sm:col-span-4">
+      {{ $pages := where .Site.RegularPages.ByPublishDate.Reverse (printf "Params.%s" .Data.Plural) "!=" nil }}
+      {{ $paginator := .Paginate $pages }}
 
-    {{ partial "list.html" (dict "pages" $paginator.Pages "paginator" .Paginator "site" .Site "summaryLimit" 270)}}
+      {{ partial "list.html" (dict "pages" $paginator.Pages "paginator" .Paginator "site" .Site "summaryLimit" 270) }}
+    </div>
   </div>
-</div>
 {{ end }}

@@ -1,6 +1,15 @@
-<meta charSet="utf-8" />
+<meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="base-url" content="{{ .Site.BaseURL }}"/>
-<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+<meta name="base-url" content="{{ .Site.BaseURL }}" />
+<title>
+  {{ if .IsHome }}
+    {{ site.Title }}
+  {{ else }}
+    {{ printf "%s | %s" .Title site.Title }}
+  {{ end }}
+
+</title>
+
+{{ partial "meta.html" . }}
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
