@@ -1,15 +1,16 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+
 {{- with resources.Get "js/main.js" }}
   {{- if eq hugo.Environment "development" }}
     {{- with . | js.Build }}
-      <script src="{{ .RelPermalink }}"></script>
+      <script src="{{ .RelPermalink | absURL }}"></script>
     {{- end }}
   {{- else }}
     {{- $opts := dict "minify" true }}
     {{- with . | js.Build $opts | fingerprint }}
       <script
-        src="{{ .RelPermalink }}"
-        integrity="{{- .Data.Integrity }}"
+        src="{{ .RelPermalink | absURL }}"
+        integrity="{{ .Data.Integrity }}"
         crossorigin="anonymous"
       ></script>
     {{- end }}
@@ -19,14 +20,14 @@
 {{- with resources.Get "js/search.js" }}
   {{- if eq hugo.Environment "development" }}
     {{- with . | js.Build }}
-      <script src="{{ .RelPermalink }}"></script>
+      <script src="{{ .RelPermalink | absURL }}"></script>
     {{- end }}
   {{- else }}
     {{- $opts := dict "minify" true }}
     {{- with . | js.Build $opts | fingerprint }}
       <script
-        src="{{ .RelPermalink }}"
-        integrity="{{- .Data.Integrity }}"
+        src="{{ .RelPermalink | absURL }}"
+        integrity="{{ .Data.Integrity }}"
         crossorigin="anonymous"
       ></script>
     {{- end }}

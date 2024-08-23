@@ -1,13 +1,13 @@
 {{- if .IsHome -}}
-  <meta name="description" content="{{ site.Params.Description }}" />
+  <meta name="description" content="{{ site.Params.description }}" />
 {{- else -}}
-  <meta name="description" content="{{ .Params.Description }}" />
+  <meta name="description" content="{{ .Params.description }}" />
 {{- end }}
 
 {{- if .IsHome -}}
-  <meta name="keywords" content="{{ site.Params.Keywords }}" />
+  <meta name="keywords" content="{{ site.Params.keywords }}" />
 {{- else -}}
-  <meta name="keywords" content="{{ .Params.Keywords }}" />
+  <meta name="keywords" content="{{ .Params.keywords }}" />
 {{- end }}
 
 {{- if isset .Params "canonical" -}}
@@ -16,26 +16,33 @@
   <link rel="canonical" href="{{ .Permalink }}" />
 {{- end }}
 
+{{- if isset .Site.Params "facebook_app_id" -}}
+  <meta property="fb:app_id" content="{{ .Site.Params.facebook_app_id }}" />
+{{- end }}
+
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="{{ .Site.Params.Twitter_Site }}" />
+<meta name="twitter:site" content="{{ .Site.Params.twitter_site }}" />
 
 {{- if .IsHome -}}
-  <meta name="og:title" content="{{ .Site.Title }}" />
+  <meta property="og:title" content="{{ .Site.Title }}" />
   <meta property="og:type" content="website" />
-  <meta property="og:description" content="{{ .Site.Params.Description }}" />
+  <meta property="og:description" content="{{ .Site.Params.description }}" />
   <meta property="og:url" content="{{ .Site.BaseURL }}" />
-  <meta name="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.Image }}" />
-  <meta name="twitter:creator" content="{{ .Site.Params.Twitter_Site }}" />
+  <meta property="og:image" content="{{ .Site.Params.image | absURL }}" />
+  <meta name="twitter:creator" content="{{ .Site.Params.twitter_site }}" />
   <meta name="twitter:title" content="{{ .Site.Title }}" />
 
-  {{- if isset .Site.Params "Twitter_Image" -}}
-    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Site.Params.Twitter_Image }}" />
+  {{- if isset .Site.Params "twitter_image" -}}
+    <meta
+      name="twitter:image"
+      content="{{ .Site.Params.twitter_image | absURL }}"
+    />
   {{- else -}}
-    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Site.Params.Image }}" />
+    <meta name="twitter:image" content="{{ .Site.Params.image | absURL }}" />
   {{- end }}
 {{- else -}}
-  <meta name="og:title" content="{{ .Title }}" />
+  <meta property="og:title" content="{{ .Title }}" />
 
   {{- if isset .Params "og_type" -}}
     <meta property="og:type" content="{{ .Params.og_type }}" />
@@ -44,24 +51,27 @@
   {{- end }}
 
 
-  <meta property="og:description" content="{{ .Params.Description }}" />
+  <meta property="og:description" content="{{ .Params.description }}" />
   <meta property="og:url" content="{{ .Permalink }}" />
 
-  {{- if isset .Params "Featured_image" -}}
-    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.Featured_Image }}" />
-    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.Featured_Image }}" />
-  {{- else -}}
-    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.Image }}" />
-    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Site.Params.Image }}" />
-  {{- end }}
-
-  {{- if isset .Params "Author_twitter_handle" -}}
+  {{- if isset .Params "featured_image" -}}
+    <meta property="og:image" content="{{ .Params.featured_image | absURL }}" />
     <meta
-      name="twitter:creator"
-      content="{{ .Params.Author_twitter_handle }}"
+      name="twitter:image"
+      content="{{ .Params.featured_image | absURL }}"
     />
   {{- else -}}
-    <meta name="twitter:creator" content="{{ .Site.Params.Twitter_Site }}" />
+    <meta property="og:image" content="{{ .Site.Params.image | absURL }}" />
+    <meta name="twitter:image" content="{{ .Site.Params.image | absURL }}" />
+  {{- end }}
+
+  {{- if isset .Params "author_twitter_handle" -}}
+    <meta
+      name="twitter:creator"
+      content="{{ .Params.author_twitter_handle }}"
+    />
+  {{- else -}}
+    <meta name="twitter:creator" content="{{ .Site.Params.twitter_site }}" />
   {{- end }}
 
 

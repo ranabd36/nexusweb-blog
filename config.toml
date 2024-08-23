@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/nexusweb-blog/'
+baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
 title = 'Nexus Web'
 theme = 'nexus'
@@ -24,13 +24,13 @@ theme = 'nexus'
 
 [params]
   subtitle = "@ranabd36"
-  favicon = "/img/favicon.png"
+  favicon = "/img/favicon.ico"
   description = "Discover how to unleash the full potential of web development among others at Nexus Web. This is where you will find the most comprehensive guides on PHP, Laravel, Go, SQL and JavaScript just to mention a few."
   keywords = "blog, technology, PHP tutorials, Laravel guides, Go programming, SQL tips, JavaScript learning, Linux tutorials, macOS tips, Web development, Programming tutorials, Coding best practices"
   image = "/img/default-og-image.webp"
   twitter_site = "@ranabd36"
   twitter_image = "/img/default-og-image.webp"
-
+  facebook_app_id=""
   [menu]
    [[menu.main]]
      identifier = "category"

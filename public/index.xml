@@ -2,178 +2,178 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nexus Web</title>
-    <link>http://localhost:1313/nexusweb-blog/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Nexus Web</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 10 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/nexusweb-blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to Post 10</title>
-      <link>http://localhost:1313/nexusweb-blog/posts/my-post-10/</link>
+      <link>http://localhost:1313/posts/my-post-10/</link>
       <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/nexusweb-blog/posts/my-post-10/</guid>
+      <guid>http://localhost:1313/posts/my-post-10/</guid>
       <description>Aute ipsum adipisicing in aliquip tempor ullamco dolor elit excepteur magna reprehenderit culpa. Magna ea laboris aliqua aliquip ad officia. Aliqua incididunt eu consequat duis. Laboris aute nostrud cillum culpa minim.&#xA;Enim irure amet mollit laboris. Pariatur esse dolor magna occaecat nulla ipsum. Sit amet dolor nostrud ut proident enim labore nulla incididunt quis do aliqua ea cillum. Tempor Lorem Lorem minim pariatur do anim quis incididunt.&#xA;Officia et non ex esse laboris.</description>
     </item>
     <item>
       <title>Introduction to Post 10</title>
-      <link>http://localhost:1313/nexusweb-blog/series/go-programming/my-post-10/</link>
+      <link>http://localhost:1313/series/go-programming/my-post-10/</link>
       <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/nexusweb-blog/series/go-programming/my-post-10/</guid>
+      <guid>http://localhost:1313/series/go-programming/my-post-10/</guid>
       <description>Aute ipsum adipisicing in aliquip tempor ullamco dolor elit excepteur magna reprehenderit culpa. Magna ea laboris aliqua aliquip ad officia. Aliqua incididunt eu consequat duis. Laboris aute nostrud cillum culpa minim.&#xA;Enim irure amet mollit laboris. Pariatur esse dolor magna occaecat nulla ipsum. Sit amet dolor nostrud ut proident enim labore nulla incididunt quis do aliqua ea cillum. Tempor Lorem Lorem minim pariatur do anim quis incididunt.&#xA;Officia et non ex esse laboris.</description>
     </item>
     <item>
       <title>Introduction to Post 9</title>
-      <link>http://localhost:1313/nexusweb-blog/posts/my-post-9/</link>
+      <link>http://localhost:1313/posts/my-post-9/</link>
       <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/nexusweb-blog/posts/my-post-9/</guid>
+      <guid>http://localhost:1313/posts/my-post-9/</guid>
       <description>Introduction to the </description>
     </item>
     <item>
       <title>Introduction to Post 9</title>
-      <link>http://localhost:1313/nexusweb-blog/series/go-programming/my-post-9/</link>
+      <link>http://localhost:1313/series/go-programming/my-post-9/</link>
       <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/nexusweb-blog/series/go-programming/my-post-9/</guid>
+      <guid>http://localhost:1313/series/go-programming/my-post-9/</guid>
       <description>Introduction to the </description>
     </item>
     <item>
       <title>Introduction to Post 8</title>
-      <link>http://localhost:1313/nexusweb-blog/posts/my-post-8/</link>
+      <link>http://localhost:1313/posts/my-post-8/</link>
       <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/nexusweb-blog/posts/my-post-8/</guid>
+      <guid>http://localhost:1313/posts/my-post-8/</guid>
       <description>Introduction to the </description>
     </item>
     <item>
       <title>Introduction to Post 8</title>
-      <link>http://localhost:1313/nexusweb-blog/series/go-programming/my-post-8/</link>
+      <link>http://localhost:1313/series/go-programming/my-post-8/</link>
       <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/nexusweb-blog/series/go-programming/my-post-8/</guid>
+      <guid>http://localhost:1313/series/go-programming/my-post-8/</guid>
       <description>Introduction to the </description>
     </item>
     <item>
       <title>Introduction to Post 7</title>
-      <link>http://localhost:1313/nexusweb-blog/posts/my-post-7/</link>
+      <link>http://localhost:1313/posts/my-post-7/</link>
       <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/nexusweb-blog/posts/my-post-7/</guid>
+      <guid>http://localhost:1313/posts/my-post-7/</guid>
       <description>Introduction to the </description>
     </item>
     <item>
       <title>Introduction to Post 7</title>
-      <link>http://localhost:1313/nexusweb-blog/series/go-programming/my-post-7/</link>
+      <link>http://localhost:1313/series/go-programming/my-post-7/</link>
       <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/nexusweb-blog/series/go-programming/my-post-7/</guid>
+      <guid>http://localhost:1313/series/go-programming/my-post-7/</guid>
       <description>Introduction to the </description>
     </item>
     <item>
       <title>Introduction to Post 6</title>
-      <link>http://localhost:1313/nexusweb-blog/posts/my-post-6/</link>
+      <link>http://localhost:1313/posts/my-post-6/</link>
       <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/nexusweb-blog/posts/my-post-6/</guid>
+      <guid>http://localhost:1313/posts/my-post-6/</guid>
       <description>Introduction to the </description>
     </item>
     <item>
       <title>Introduction to Post 6</title>
-      <link>http://localhost:1313/nexusweb-blog/series/go-programming/my-post-6/</link>
+      <link>http://localhost:1313/series/go-programming/my-post-6/</link>
       <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/nexusweb-blog/series/go-programming/my-post-6/</guid>
+      <guid>http://localhost:1313/series/go-programming/my-post-6/</guid>
       <description>Introduction to the </description>
     </item>
     <item>
       <title>Introduction to Post 5</title>
-      <link>http://localhost:1313/nexusweb-blog/posts/my-post-5/</link>
+      <link>http://localhost:1313/posts/my-post-5/</link>
       <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/nexusweb-blog/posts/my-post-5/</guid>
+      <guid>http://localhost:1313/posts/my-post-5/</guid>
       <description>Introduction to the </description>
     </item>
     <item>
       <title>Introduction to Post 5</title>
-      <link>http://localhost:1313/nexusweb-blog/series/php-programming/my-post-5/</link>
+      <link>http://localhost:1313/series/php-programming/my-post-5/</link>
       <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/nexusweb-blog/series/php-programming/my-post-5/</guid>
+      <guid>http://localhost:1313/series/php-programming/my-post-5/</guid>
       <description>Introduction to the </description>
     </item>
     <item>
       <title>Introduction to Post 4</title>
-      <link>http://localhost:1313/nexusweb-blog/posts/my-post-4/</link>
+      <link>http://localhost:1313/posts/my-post-4/</link>
       <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/nexusweb-blog/posts/my-post-4/</guid>
+      <guid>http://localhost:1313/posts/my-post-4/</guid>
       <description>Introduction to the </description>
     </item>
     <item>
       <title>Introduction to Post 4</title>
-      <link>http://localhost:1313/nexusweb-blog/series/go-programming/my-post-4/</link>
+      <link>http://localhost:1313/series/go-programming/my-post-4/</link>
       <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/nexusweb-blog/series/go-programming/my-post-4/</guid>
+      <guid>http://localhost:1313/series/go-programming/my-post-4/</guid>
       <description>Introduction to the </description>
     </item>
     <item>
       <title>Introduction to Post 3</title>
-      <link>http://localhost:1313/nexusweb-blog/posts/my-post-3/</link>
+      <link>http://localhost:1313/posts/my-post-3/</link>
       <pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/nexusweb-blog/posts/my-post-3/</guid>
+      <guid>http://localhost:1313/posts/my-post-3/</guid>
       <description>Introduction to the </description>
     </item>
     <item>
       <title>Introduction to Post 3</title>
-      <link>http://localhost:1313/nexusweb-blog/series/php-programming/my-post-3/</link>
+      <link>http://localhost:1313/series/php-programming/my-post-3/</link>
       <pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/nexusweb-blog/series/php-programming/my-post-3/</guid>
+      <guid>http://localhost:1313/series/php-programming/my-post-3/</guid>
       <description>Introduction to the </description>
     </item>
     <item>
       <title>Introduction to Pos 1</title>
-      <link>http://localhost:1313/nexusweb-blog/posts/my-post-2/</link>
+      <link>http://localhost:1313/posts/my-post-2/</link>
       <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/nexusweb-blog/posts/my-post-2/</guid>
+      <guid>http://localhost:1313/posts/my-post-2/</guid>
       <description>Introduction to the </description>
     </item>
     <item>
       <title>Introduction to Pos 1</title>
-      <link>http://localhost:1313/nexusweb-blog/series/go-programming/my-post-2/</link>
+      <link>http://localhost:1313/series/go-programming/my-post-2/</link>
       <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/nexusweb-blog/series/go-programming/my-post-2/</guid>
+      <guid>http://localhost:1313/series/go-programming/my-post-2/</guid>
       <description>Introduction to the </description>
     </item>
     <item>
       <title>Introduction to Post</title>
-      <link>http://localhost:1313/nexusweb-blog/posts/my-post/</link>
+      <link>http://localhost:1313/posts/my-post/</link>
       <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/nexusweb-blog/posts/my-post/</guid>
+      <guid>http://localhost:1313/posts/my-post/</guid>
       <description>Fugiat reprehenderit amet aliquip non reprehenderit sint. Sint veniam est laboris dolore ipsum duis officia non nostrud do non aute eu. Incididunt mollit duis ullamco reprehenderit exercitation officia aute laborum in sit aliquip. Deserunt sit mollit dolore esse non ea pariatur culpa ad aliqua proident. Duis velit laboris in voluptate magna nisi deserunt esse reprehenderit esse proident. Veniam tempor do nulla minim veniam et occaecat et excepteur aliquip. Consequat irure qui nisi tempor duis pariatur consequat do ut do in culpa.</description>
     </item>
     <item>
       <title>Introduction to Post</title>
-      <link>http://localhost:1313/nexusweb-blog/series/php-programming/my-post/</link>
+      <link>http://localhost:1313/series/php-programming/my-post/</link>
       <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/nexusweb-blog/series/php-programming/my-post/</guid>
+      <guid>http://localhost:1313/series/php-programming/my-post/</guid>
       <description>Fugiat reprehenderit amet aliquip non reprehenderit sint. Sint veniam est laboris dolore ipsum duis officia non nostrud do non aute eu. Incididunt mollit duis ullamco reprehenderit exercitation officia aute laborum in sit aliquip. Deserunt sit mollit dolore esse non ea pariatur culpa ad aliqua proident. Duis velit laboris in voluptate magna nisi deserunt esse reprehenderit esse proident. Veniam tempor do nulla minim veniam et occaecat et excepteur aliquip. Consequat irure qui nisi tempor duis pariatur consequat do ut do in culpa.</description>
     </item>
     <item>
       <title>Introduction to test</title>
-      <link>http://localhost:1313/nexusweb-blog/posts/test-post/</link>
+      <link>http://localhost:1313/posts/test-post/</link>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/nexusweb-blog/posts/test-post/</guid>
+      <guid>http://localhost:1313/posts/test-post/</guid>
       <description>In deserunt ex cillum adipisicing voluptate irure adipisicing aliquip Lorem ad mollit esse. Sit non minim quis cupidatat tempor esse id sunt sit aliqua aliquip labore aliqua. Exercitation fugiat consectetur id ex elit. Consequat dolor cupidatat qui exercitation pariatur cillum.</description>
     </item>
     <item>
       <title>Introduction to test</title>
-      <link>http://localhost:1313/nexusweb-blog/series/php-programming/test-post/</link>
+      <link>http://localhost:1313/series/php-programming/test-post/</link>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/nexusweb-blog/series/php-programming/test-post/</guid>
+      <guid>http://localhost:1313/series/php-programming/test-post/</guid>
       <description>In deserunt ex cillum adipisicing voluptate irure adipisicing aliquip Lorem ad mollit esse. Sit non minim quis cupidatat tempor esse id sunt sit aliqua aliquip labore aliqua. Exercitation fugiat consectetur id ex elit. Consequat dolor cupidatat qui exercitation pariatur cillum.</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>http://localhost:1313/nexusweb-blog/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/nexusweb-blog/contact/</guid>
+      <guid>http://localhost:1313/contact/</guid>
       <description>Contact Page</description>
     </item>
     <item>
       <title>Search</title>
-      <link>http://localhost:1313/nexusweb-blog/search/</link>
+      <link>http://localhost:1313/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/nexusweb-blog/search/</guid>
+      <guid>http://localhost:1313/search/</guid>
       <description></description>
     </item>
   </channel>
